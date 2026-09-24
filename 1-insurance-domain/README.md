@@ -14,9 +14,7 @@ This domain models the complete lifecycle of insurance customers:
 ```text
 1-insurance-domain/
 ├── sql-scripts/
-│   ├── policy_schema.sql    # DDL for Customer, Policy_Header, Coverage_Limits, Premium_Invoice
-│   └── claims_schema.sql    # DDL for FNOL_Report, Claim_File, Damage_Item, Claim_Payment
-├── diagrams/                # Store insurance_erd.drawio and exported ERD images here
+├── diagrams/               
 └── README.md
 ```
 
