@@ -1,6 +1,6 @@
 # Group 1: Insurance Domain (Policy & Claims)
 
-## 📌 Scope & Focus
+## Scope & Focus
 This domain models the complete lifecycle of insurance customers:
 1. Customer onboarding and identity.
 2. Underwriting & policy issuance with explicit coverage limits.
@@ -10,7 +10,7 @@ This domain models the complete lifecycle of insurance customers:
 
 ---
 
-## 🗂️ Folder Structure
+## Folder Structure
 ```text
 1-insurance-domain/
 ├── sql-scripts/
@@ -18,11 +18,7 @@ This domain models the complete lifecycle of insurance customers:
 └── README.md
 ```
 
----
 
-## 🔑 Key Entities to Model
-* **`Customer`**: Core individual or business identity.
-* **`Policy_Header`**: Policy contract records containing state machine attributes (`DRAFT`, `ACTIVE`, `LAPSED`, `TERMINATED`).
 * **`Coverage_Limits`**: Specific coverage categories, maximum limits, and deductible amounts.
 * **`Premium_Invoice`**: Billing schedule, payment status, and inflow ledger references.
 * **`FNOL_Report`**: Initial incident recording (date, incident description, reporting party).
