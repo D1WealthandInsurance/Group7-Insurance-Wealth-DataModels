@@ -11,3 +11,4 @@ Place Group 2 diagram artifacts in this directory:
 * `Security_Holding`
 * `Market_Price_Feed`
 * `Daily_NAV_Ledger`
+

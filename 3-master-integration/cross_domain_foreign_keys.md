@@ -75,3 +75,4 @@ This document specifies the integration architecture between the **Insurance Dom
 1. **State Machine Constraint:** A `Claim_Payment` cannot be authorized if the corresponding `Policy_Header.policy_status != 'ACTIVE'`.
 2. **Limit Checking:** Sum of `assessed_amount` in `Damage_Item` cannot exceed `Coverage_Limits.limit_amount`.
 3. **Liquidity Guard:** A disbursement from `Portfolio` must verify that liquid reserves (`T0_IMMEDIATE` asset class) exceed or equal the `payout_amount` before finalizing settlement.
+

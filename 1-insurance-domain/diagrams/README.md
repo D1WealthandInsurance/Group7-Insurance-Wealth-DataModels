@@ -13,3 +13,4 @@ Place Group 1 diagram artifacts in this directory:
 * `Claim_File`
 * `Damage_Item`
 * `Claim_Payment`
+

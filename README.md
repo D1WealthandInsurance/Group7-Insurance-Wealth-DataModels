@@ -83,3 +83,4 @@ Group7-Insurance-Wealth-DataModels/
 3. **Review Process:**
    * Do not push directly to `main`.
    * Branch out (`feature/<domain>-<feature-name>`), open a Pull Request, and require at least one peer review before merging.
+

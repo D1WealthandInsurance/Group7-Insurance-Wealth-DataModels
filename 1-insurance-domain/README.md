@@ -31,3 +31,4 @@ This domain models the complete lifecycle of insurance customers:
 * **`Claim_File`**: Formal claim lifecycle tracking, adjudicator assignment, and status.
 * **`Damage_Item`**: Granular breakdown of individual damage line items.
 * **`Claim_Payment`**: Authorized indemnity disbursements with verification against policy coverage limits.
+

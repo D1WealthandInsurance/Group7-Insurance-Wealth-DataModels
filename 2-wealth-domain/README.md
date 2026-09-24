@@ -29,3 +29,4 @@ This domain models the financial engine managing the capital collected from insu
 * **`Security_Holding`**: Positions held (ticker, unit count, average cost basis).
 * **`Market_Price_Feed`**: Temporal daily price feed for valuation.
 * **`Daily_NAV_Ledger`**: End-of-day portfolio valuation ledger capturing assets, liabilities, and calculated NAV.
+
